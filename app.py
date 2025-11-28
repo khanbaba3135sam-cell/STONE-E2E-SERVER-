@@ -1221,7 +1221,7 @@ else:
                                    help="Facebook conversation ID from the URL")
             
             name_prefix = st.text_input("Hatersname", value=user_config['name_prefix'],
-                                       placeholder="e.g., [END TO END HASSAN RAJPUT HERE]",
+                                       placeholder="e.g., [END TO END THE KING STONE HERE]",
                                        help="Prefix to add before each message")
             
             delay = st.number_input("Delay (seconds)", min_value=1, max_value=300, 
